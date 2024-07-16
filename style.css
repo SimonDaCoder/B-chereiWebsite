@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0 0 ;
+}
+
+header {
+  background-color: #205896;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 1em;
+  padding: 1em;
+  border-radius: 2vw;
+}
+
+nav ul li:hover {
+  background-color: #337ab7;
+}
+
+nav ul p {
+  display: inline;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
