@@ -1,34 +1,75 @@
 <!DOCTYPE html>
 <html lang="de">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bücherei-Management</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <h1>Bücherei-Management-System</h1>
-        <nav>
-            <ul>
-              <li><a href="index.html">Home</a></li>
-              <p>|</p>
-              <li><a href="Konten.html">Konten</a></li>
-              <p>|</p>
-              <li><a href="Bestand.html">Bestand</a></li>
-              <p>|</p>
-              <li><a href="Ausleihe.html">Ausleihe</a></li>
-              <p>|</p>
-              <li><a href="Rückgabe.html">Rückgabe</a></li>
-              <p>|</p>
-              <li><a href="Admin.html">Admin</a></li>
-            </ul>
-        </nav>
-    </header>
-    <footer>
-      <p>&copy; 2024 Gymkro Lernmittel Bücherei</p>
-  </footer>
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bücherei-Management</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Bücherei-Management-System</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <p>|</p>
+        <li><a href="Konten.html">Konten</a></li>
+        <p>|</p>
+        <li><a href="Bestand.html">Bestand</a></li>
+        <p>|</p>
+        <li><a href="Ausleihe.html">Ausleihe</a></li>
+        <p>|</p>
+        <li><a href="Rückgabe.html">Rückgabe</a></li>
+        <p>|</p>
+        <li><a href="Admin.html">Admin</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="accounts">
+    <h2>Kontenverwaltung</h2>
+    <div id="account-creation">
+      <h3>Neues Konto erstellen</h3>
+      <!-- Formular für die Kontoerstellung -->
+      <form id="create-account-form">
+        <label for="account-type">Kontotyp:</label>
+        <select id="account-type" name="account-type">
+          <option value="student">Schüler</option>
+          <option value="teacher">Lehrer</option>
+        </select>
+
+        <label for="account-name">Name:</label>
+        <input type="text" id="account-name" name="account-name" required>
+
+        <button type="submit">Konto erstellen</button>
+      </form>
+    </div>
+    <div id="account-list">
+      <h3>Kontenübersicht</h3>
+      <!-- Liste der Konten -->
+      <table>
+        <thead>
+          <tr>
+            <th>Kontonummer</th>
+            <th>Kontotyp</th>
+            <th>Name</th>
+            <th>Ausgeliehen</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Füllen Sie die Kontenliste mit Daten -->
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Gymkro Lernmittel Bücherei</p>
+  </footer>
   <script src="code.js"></script>
 </body>
+
 </html>

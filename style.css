@@ -35,3 +35,12 @@ nav ul li a {
   color: white;
   text-decoration: none;
 }
+
+#accounts {
+  display:flex
+}
+
+#account-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
