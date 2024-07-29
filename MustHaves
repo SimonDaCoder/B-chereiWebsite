@@ -1,0 +1,57 @@
+◦ Konten für jeden Schüler und Lehrer auf die man die Bücher in 
+Form von den Medien Barcodes Buchen kann
+◦ Lesergruppen damit man die einzelnen Konten in Gruppen
+sortieren kann (diese müssen vom Nutzer erstellbar sein)
+◦ Ein Bestand in dem alle Bücher mit den jeweiligen Barcodes und
+ISBN Nummern hinterlegt sind. Außerdem muss man sehen
+können, wie viele der einzelnen Buchsorten insgesamt da sind,
+jetzt gerade verfügbar und jetzt gerade verliehen sind.
+◦ Man muss einzelne Bücher Einscannen können und sehen können,
+um welches Buch es sich handelt sprich die ISBN, den Titel zB
+Deutschbuch Klasse 5, den Status des Buches sprich verleibar
+oder verliehen (dann an wen es verliehen ist), an wen es zuletzt
+ausgeliehen war und man muss das Buch als einzelnes hier auch
+löschen können, also so, dass der barcode danach nicht mehr im
+Bestand existiert.
+◦ Listen erstellen und drucken können, die einem zeigen, welche
+Bücher verliehen sind, dabei muss eine lesergruppe eingestellt
+werden, sodass man zB nur alle Konten der 9c aufgelistet
+bekommt.
+◦ Die Bücher einzeln in die Konten einbuchen bzw. zurücknehmen
+können
+◦ Die Bücher derselben Art als Gruppenausleihe an die lesergruppen
+ausleihen können, dabei sollen die Namen bei der gruppenausleihe
+alphabetisch geordnet sein. (Nach den Nachnamen)
+◦ Man muss bei jeder Buchsorte hinterlegen können, für welche
+Jahrgänge dieses Buch vorgesehen ist, sodass man bei natura 2
+zum Beispiel einstellen kann, dass es für die Jahrgänge 7,8,9,10
+ist.
+◦ => man muss Listen drucken können mit dem Namen „Liste
+zurückzugebener Medien“. Dabei muss man zuerst einstellen
+können, für welche Lesergruppe man die Liste erstellen möchte
+und dann soll das System automatisch erkennen, welche Bücher
+zB die 9c noch haben darf und welche nicht. Wenn du dann zB
+noch dein deutschbuch aus der 8. klasse hast soll das System
+automatisch erkennen, dass du dies abgegeben musst und dich
+dann zusammen mit dem Titel des Buches und dem
+medienbarcode des zurückzugeben Buches auf diese Liste setzen.
+◦ Für alle Listen und Konten muss es die drucken Funktion geben
+◦ Alle Daten müssen irgendwie extern gesichert werden sodass man
+zum einem eine Datensicherung durchführen kann (automatische
+Datensicherungen wären cool, alle 10 Minuten oder so)
+◦ => man muss die Daten auch über andere Geräte nach Eingabe
+eines Passwortes abrufen können für den Fall dass unser pc unten
+mal den Geist aufgibt.
+◦ Man braucht einen schnellzugriff , wo man über nur einen
+Knopfdruck wichtige Dinge wie ausleihe, Rücknahme und Konto
+Einsehen einschalten kann.
+◦ Das ganze muss möglichst übersichtlich gestaltet sein
+◦ Man braucht als User die Möglichkeit einen art admin Modus zu
+aktivieren wo man dann zum Beispiel Leser und lesergruppen
+hinzufügen, Bücher löschen und hinzufügen und neue
+medienbarcodes für Bücher drucken kann
+◦ Medienbarcodes dürfen sich nie doppeln sprich jeder Buchcode ist
+einmalig
+◦ Man müsste knapp 10000 Bücher in das System inventarisieren
+können, ohne jedes Buch einmal scannen zu müssen
+◦ => admin Modus muss über schnellzugriff erreichbar sein
